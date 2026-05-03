@@ -1,6 +1,6 @@
 ---
 name: humanizer
-description: Rewrite prose to remove signs of LLM authorship and inject specific, varied, opinionated human voice. Use when humanizing AI-drafted text. Skip for code, commits, configs, and prose Claude is currently drafting (apply inline instead).
+description: Rewrite prose to remove signs of LLM authorship and inject specific, varied, opinionated human voice. Use when humanizing AI-drafted text. Skip for code, commits, configs, and prose you are currently drafting (apply inline instead).
 allowed-tools: Read, Write, Edit, Grep, Glob, AskUserQuestion
 ---
 

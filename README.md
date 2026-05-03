@@ -1,6 +1,6 @@
 # humanizer
 
-A Claude Code skill that rewrites prose to remove signs of LLM authorship and inject specific, varied, opinionated human voice.
+A skill that rewrites prose to remove signs of LLM authorship and inject specific, varied, opinionated human voice. Drop-in for any agent harness that loads `SKILL.md` files (works in `~/.claude/skills/`, `~/.codex/skills/`, and similar).
 
 Originally adapted from [blader/humanizer](https://github.com/blader/humanizer). This fork tightens the skill around two ideas:
 
@@ -22,19 +22,14 @@ The skill enumerates 31 named patterns across content, language, style, communic
 
 ## Install
 
-Drop `SKILL.md` into your Claude Code skills directory:
+Drop `SKILL.md` into your agent harness's skills directory. Common locations:
 
 ```
 ~/.claude/skills/humanizer/SKILL.md
-```
-
-Or for OpenAI Codex CLI:
-
-```
 ~/.codex/skills/humanizer/SKILL.md
 ```
 
-The skill is invoked when you ask Claude Code to humanize text, or by running `/humanizer` if you have it set up as a slash command.
+The skill activates when you ask the agent to humanize text, or via `/humanizer` if your harness exposes skills as slash commands.
 
 ## Use
 
