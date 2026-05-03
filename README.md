@@ -18,7 +18,7 @@ The skill enumerates 31 named patterns across content, language, style, communic
 - **Sentence-initial transition pile-up.** Opening sentence after sentence with `Additionally,` / `Moreover,` / `Furthermore,` / `Notably,` / `That said,`.
 - **Intra-document register shift.** When one paragraph reads like a person and the next reads like a press release, because the rewrite touched some sections and not others.
 - **"Across" as a soft broadener** (`across industries`, `across teams`, `across the board`).
-- **Augmented AI vocabulary** including `meticulous`, `bolstered`, `resonate`, `ultimately`, `indeed`, `that said`, `in essence`, `it's worth noting`.
+- **Tiered vocabulary with diagnostic collocations.** Phrase-level patterns like `delve into the intricacies of`, `harness the power of`, `in today's fast-paced world`, `through the lens of`, `the ever-evolving landscape of` carry far more signal than single words. Rule #7 splits collocations from words, then tiers each by signal strength so the model knows which are deal-breakers versus which only flag in clusters.
 
 ## Install
 

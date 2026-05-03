@@ -176,11 +176,38 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 
 ## LANGUAGE AND GRAMMAR PATTERNS
 
-### 7. Overused "AI vocabulary" words
+### 7. AI vocabulary: collocations and words
 
-**High-frequency AI words:** actually, additionally, align with, bolstered, crucial, crucially, delve, emphasizing, enduring, enhance, fostering, garner, highlight (verb), importantly, in essence, indeed, interplay, intricate/intricacies, it's worth noting, it's worth mentioning, key (adjective), landscape (abstract noun), meticulous/meticulously, moreover, furthermore, notably, pivotal, resonate/resonates with, showcase, tapestry (abstract noun), testament, that said, ultimately, underscore (verb), valuable, vibrant
+Vocabulary tells split by signal strength. Collocations (multi-word patterns) carry far more signal than single words: a human might use `delve` once a year, but `delve into the intricacies of` essentially never. Single words come next, tiered by how diagnostic each is.
 
-**Problem:** These words appear far more frequently in post-2023 text. They co-occur. Wikipedia tracks them in era cohorts (2023, mid-2024, mid-2025), but the safe move is to treat all of them as suspect and require justification before using any.
+**Diagnostic collocations (one instance is a tell):**
+- `delve into [the X]`
+- `navigate the [complexities/intricacies/landscape] of`
+- `harness the [power/potential] of`
+- `in today's [fast-paced/digital/modern/ever-evolving] world`
+- `in the realm of`
+- `in the world of [topic]`
+- `through the lens of`
+- `rich tapestry of`
+- `weaves a tapestry of`
+- `stands as a testament to`
+- `the ever-evolving landscape of`
+- `play a [crucial/pivotal/key] role in`
+- `shed light on`
+- `paving the way for`
+- `the importance of [X] cannot be overstated`
+- `more than just`
+- `in the grand scheme of`
+
+**Diagnostic words (one instance is a tell):** delve, tapestry, testament, intricate/intricacies, interplay, garner, meticulous/meticulously, underscore (verb), indelible, myriad, plethora, treasure trove
+
+**High suspicion (overused; flag if context is generic):** vibrant, pivotal, crucial, enhance, fostering, emphasizing, highlighting, showcasing, align with, enduring, landscape (as abstract noun), key (as adjective), valuable, resonate, robust, seamless, comprehensive, nuanced, leverage, bolstered
+
+**Watch in pile-up (common in human prose, suspicious in clusters):** actually, essentially
+
+(Sentence-initial transitions like *Additionally, Moreover, Furthermore, However, Notably, Indeed, Importantly, Crucially, That said, Ultimately* live in #30. Persuasive-authority phrases like *in essence, it's worth noting, at its core, fundamentally, the deeper issue* live in #27.)
+
+**Problem:** These appear far more often in post-2023 text than pre-2022 text. Wikipedia tracks era cohorts (2023, mid-2024, mid-2025); the diagnostic tiers above are era-stable.
 
 **Before:**
 > Additionally, a distinctive feature of Somali cuisine is the incorporation of camel meat. An enduring testament to Italian colonial influence is the widespread adoption of pasta in the local culinary landscape, showcasing how these dishes have integrated into the traditional diet.
@@ -426,7 +453,7 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 
 ### 27. Persuasive authority tropes
 
-**Phrases to watch:** The real question is, at its core, in reality, what really matters, fundamentally, the deeper issue, the heart of the matter, in essence, ultimately, it's worth noting
+**Phrases to watch:** The real question is, at its core, in reality, what really matters, fundamentally, the deeper issue, the heart of the matter, in essence, ultimately, it's worth noting, it's worth mentioning
 
 **Problem:** LLMs use these phrases to pretend they are cutting through noise to some deeper truth, when the sentence that follows usually just restates an ordinary point with extra ceremony.
 
